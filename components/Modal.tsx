@@ -46,11 +46,11 @@ export default function Modal({ isOpen, setIsOpen }) {
                   >
                     Yes, I&apos;m ready to download &amp; install!
                   </a>
-                  <Link
-                    href="/flashcards/purchase?lang=japanese"
-                    onClick={() => setIsOpen(true)}
-                  >
-                    <a className="inline-block mb-4 py-8 text-xl text-center w-full rounded-lg text-white bg-gray-700 hover:bg-green-500 focus:ring-4 focus:ring-blue-300 focus:outline-none">
+                  <Link href="/flashcards/purchase?lang=japanese">
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      className="inline-block mb-4 py-8 text-xl text-center w-full rounded-lg text-white bg-gray-700 hover:bg-green-500 focus:ring-4 focus:ring-blue-300 focus:outline-none"
+                    >
                       No, I need to purchase a license.
                     </a>
                   </Link>
