@@ -49,7 +49,7 @@ export default function SlugPage({ page, section }) {
 
                 <div className="mt-4 lg:mt-0">
                   <div className="flex flex-col p-10 xl:px-14 xl:py-12 bg-white lg:max-w-xl lg:ml-auto rounded-4xl shadow-2xl">
-                    <a download href="/manual-japanese.pdf" onClick={() => setIsOpen(true)} className="inline-block mb-4 py-8 text-xl text-center w-full rounded-lg text-white bg-gray-700 hover:bg-green-500 focus:ring-4 focus:ring-blue-300 focus:outline-none">Download Free Sample Version</a>
+                    <a download href="/manual-japanese.pdf" className="inline-block mb-4 py-8 text-xl text-center w-full rounded-lg text-white bg-gray-700 hover:bg-green-500 focus:ring-4 focus:ring-blue-300 focus:outline-none">Download Free Sample Version</a>
                     <button type="button" onClick={() => setIsOpen(true)} className="inline-block py-8 text-xl text-center w-full rounded-lg text-white bg-gray-700 hover:bg-green-500 focus:ring-4 focus:ring-blue-300 focus:outline-none">Download Full Version</button>
                   </div>
                 </div>
