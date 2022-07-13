@@ -1,4 +1,4 @@
-export default function ({ height = 24, width = 24 }) {
+export default function ContactIcon({ height = 24, width = 24 }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

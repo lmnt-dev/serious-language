@@ -16,6 +16,7 @@ export default function BackgroundImage({ src }) {
         }}
       />
       <Image
+        alt=""
         src={src}
         layout="fill"
         objectFit="cover"
