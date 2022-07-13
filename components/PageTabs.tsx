@@ -21,7 +21,7 @@ export default function PageTabs({ page, section }) {
                         'inline-block p-4 rounded-t-lg ' +
                         cx({
                           'bg-white/75 active': active,
-                          'bg-gray-100/50': !active,
+                          'bg-gray-100/50 hover:bg-white/50': !active,
                         })
                       }
                     >
@@ -33,7 +33,7 @@ export default function PageTabs({ page, section }) {
               })}
             </ul>
           </div>
-          <div className="bg-white/75">
+          <div className="bg-white/75 grow relative">
             <div className="container max-w-screen-xl mx-auto pl-10 pr-5 lg:pl-20 lg:pr-8 py-14 prose lg:prose-lg">
               <PageContent page={page} />
             </div>
