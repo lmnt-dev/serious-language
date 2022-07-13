@@ -2,7 +2,7 @@
 
 This repository is configured to redeploy the live site on every push to the `main` branch.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lmnt-dev/serious-language)
 
 ### Local environment
 
