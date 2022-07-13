@@ -5,7 +5,7 @@ import PageContent from 'components/PageContent';
 
 const upper = (x) => x.at(0).toUpperCase() + x.slice(1);
 
-export default function ({ page, section }) {
+export default function PageTabs({ page, section }) {
     return (<>
         <div className="container max-w-screen-xl mx-auto">
             <ul className="flex flex-wrap text-center">

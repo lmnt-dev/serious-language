@@ -3,7 +3,7 @@ import Link from "next/link";
 import HelpIcon from "./icons/HelpIcon";
 import Logo from "./Logo";
 
-export default function ({section = null}) {
+export default function Header ({section = null}) {
   return (
     <header className="container max-w-screen-xl mx-auto flex items-center px-8 py-16 pb-12">
       <div className="w-1/2">

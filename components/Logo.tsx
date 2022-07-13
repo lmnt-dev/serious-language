@@ -1,4 +1,4 @@
-export default function () {
+export default function Logo() {
   return (
     <svg width="278" height="72" viewBox="0 0 278 72">
       <defs id="SvgjsDefs2616"></defs>

@@ -1,8 +1,10 @@
 import Image from "next/image";
 
-export default function ({ src }) {
+export default function BackgroundImage({ src }) {
   return (
-    <div style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: -1 }}>
+    <div
+      style={{ position: "fixed", width: "100vw", height: "100vh", zIndex: -1 }}
+    >
       <div
         style={{
           zIndex: -9,

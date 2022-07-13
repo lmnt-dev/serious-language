@@ -22,7 +22,7 @@ export async function getStaticProps({ params: { slug = [] } }) {
   };
 }
 
-export default function ({ page, section }) {
+export default function CatchAll({ page, section }) {
   return (
     <>
       <Head>
