@@ -45,3 +45,11 @@ ul ul > li {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.prose h2 {
+  max-width: 60rem;
+}
+.prose li,
+.prose p {
+  max-width: 42rem;
+}

@@ -1,16 +1,15 @@
-import Head from "next/head";
 import Link from "next/link";
 
 import BackgroundImage from "components/BackgroundImage";
+import Head from 'components/Head';
 import Footer from "components/Footer";
 import Header from "components/Header";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
         <title>Flashcards | Serious Language Student</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <BackgroundImage src={`/bg-default.jpg`} />
       <div className="flex flex-col min-h-screen">
