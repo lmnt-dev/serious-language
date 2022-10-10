@@ -25,6 +25,7 @@
     "contentlayer": "^0.2.6",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
+    "md-to-pdf": "^5.1.0",
     "next-contentlayer": "^0.2.6",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
